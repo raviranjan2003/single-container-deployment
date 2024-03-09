@@ -19,8 +19,8 @@ deploy:
   bucket_path: "travis"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_ACCESS
+  access_key_id : $AWS_ACCESS_KEY
+  secret_access_key : $AWS_SECRET_ACCESS
 
 # AWS_ACCESS_KEY and AWS_SECRET_KEY are stored in Travis CI environment variables
 # They are stored in Travis CI environment variables to avoid exposing them in the public repositories
